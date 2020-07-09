@@ -1,0 +1,6 @@
+framework module Pods_snackspopnew {
+  umbrella header "Pods-snackspopnew-umbrella.h"
+
+  export *
+  module * { export * }
+}

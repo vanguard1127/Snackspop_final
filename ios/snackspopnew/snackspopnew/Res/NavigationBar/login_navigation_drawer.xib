@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoginNavView">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="508"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDA-wp-RtK">
+                    <rect key="frame" x="0.0" y="0.0" width="242" height="151.66666666666666"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_emptyuser" translatesAutoresizingMaskIntoConstraints="NO" id="wfT-mD-GRH">
+                            <rect key="frame" x="88.666666666666671" y="35" width="65.000000000000014" height="65"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="65" id="FQA-So-zET"/>
+                                <constraint firstAttribute="width" constant="65" id="PYk-zZ-FHB"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="November Eleven" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YyU-lh-tlO">
+                            <rect key="frame" x="0.0" y="110" width="242" height="21.666666666666657"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="wfT-mD-GRH" firstAttribute="top" secondItem="wDA-wp-RtK" secondAttribute="top" constant="35" id="BRp-94-jJp"/>
+                        <constraint firstAttribute="bottom" secondItem="YyU-lh-tlO" secondAttribute="bottom" constant="20" id="CC3-1D-lY7"/>
+                        <constraint firstItem="wfT-mD-GRH" firstAttribute="centerX" secondItem="wDA-wp-RtK" secondAttribute="centerX" id="aaF-GW-EhU"/>
+                        <constraint firstItem="YyU-lh-tlO" firstAttribute="width" secondItem="wDA-wp-RtK" secondAttribute="width" id="iq2-dV-YR5"/>
+                        <constraint firstItem="YyU-lh-tlO" firstAttribute="top" secondItem="wfT-mD-GRH" secondAttribute="bottom" constant="10" id="nDX-DE-W0K"/>
+                        <constraint firstItem="YyU-lh-tlO" firstAttribute="centerX" secondItem="wDA-wp-RtK" secondAttribute="centerX" id="rLM-jL-oIR"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Sz0-pC-CoW">
+                    <rect key="frame" x="0.0" y="151.66666666666666" width="242" height="310.33333333333337"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="368" id="1pf-xe-0a0"/>
+                        <constraint firstAttribute="height" constant="300" id="fCF-RV-hlN"/>
+                        <constraint firstAttribute="height" constant="340" id="p75-zD-k4q"/>
+                    </constraints>
+                    <color key="sectionIndexBackgroundColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="1pf-xe-0a0"/>
+                            <exclude reference="fCF-RV-hlN"/>
+                            <exclude reference="p75-zD-k4q"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="Qqq-3S-neC"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="b1I-oH-tQP"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Sz0-pC-CoW" firstAttribute="top" secondItem="wDA-wp-RtK" secondAttribute="top" constant="122" id="34M-ms-tya"/>
+                <constraint firstItem="Sz0-pC-CoW" firstAttribute="top" secondItem="wDA-wp-RtK" secondAttribute="bottom" id="4m4-qU-yCI"/>
+                <constraint firstItem="Sz0-pC-CoW" firstAttribute="top" secondItem="wDA-wp-RtK" secondAttribute="bottom" id="8AW-7I-fWJ"/>
+                <constraint firstItem="wDA-wp-RtK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Cl0-x8-sXo"/>
+                <constraint firstItem="wDA-wp-RtK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Kt3-cb-EJG"/>
+                <constraint firstItem="Sz0-pC-CoW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="122" id="PXY-9W-84I"/>
+                <constraint firstItem="Sz0-pC-CoW" firstAttribute="top" secondItem="wDA-wp-RtK" secondAttribute="bottom" id="aqs-PU-4PQ"/>
+                <constraint firstItem="Sz0-pC-CoW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="122" id="bDd-lH-6fN"/>
+                <constraint firstAttribute="trailing" secondItem="Sz0-pC-CoW" secondAttribute="trailing" id="e0l-jM-Q2X"/>
+                <constraint firstAttribute="bottom" secondItem="Sz0-pC-CoW" secondAttribute="bottom" constant="46" id="gqO-Lu-o31"/>
+                <constraint firstAttribute="bottom" secondItem="Sz0-pC-CoW" secondAttribute="bottom" constant="66" id="me8-Uc-n0i"/>
+                <constraint firstItem="Sz0-pC-CoW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vDn-vT-juE"/>
+                <constraint firstAttribute="trailing" secondItem="wDA-wp-RtK" secondAttribute="trailing" id="y42-td-ap2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="34M-ms-tya"/>
+                    <exclude reference="4m4-qU-yCI"/>
+                    <exclude reference="8AW-7I-fWJ"/>
+                    <exclude reference="PXY-9W-84I"/>
+                    <exclude reference="bDd-lH-6fN"/>
+                    <exclude reference="me8-Uc-n0i"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="logoImageView" destination="wfT-mD-GRH" id="h0e-Ky-T6x"/>
+                <outlet property="nameLabel" destination="YyU-lh-tlO" id="Zao-Tz-U1E"/>
+                <outlet property="tableView" destination="Sz0-pC-CoW" id="Nd6-dG-qLn"/>
+            </connections>
+            <point key="canvasLocation" x="422" y="434"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_emptyuser" width="225" height="225"/>
+    </resources>
+</document>

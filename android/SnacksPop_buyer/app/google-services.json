@@ -1,0 +1,315 @@
+{
+  "project_info": {
+    "project_number": "466050876426",
+    "firebase_url": "https://snackspop-161808.firebaseio.com",
+    "project_id": "snackspop-161808",
+    "storage_bucket": "snackspop-161808.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466050876426:android:962abd7c28de7abb",
+        "android_client_info": {
+          "package_name": "com.snackspop.snackspop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466050876426-5olf8mtvtsbtcpu24p0bj3s6uaidt9io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspop",
+            "certificate_hash": "f31291770f7a2f908f00be88fb0075041e0bc218"
+          }
+        },
+        {
+          "client_id": "466050876426-ir41qeqi6cuc7f0gnp4d5p68ueoro75g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspop",
+            "certificate_hash": "041bba6e23e12ed809e5f4c857d5ae5781555e8c"
+          }
+        },
+        {
+          "client_id": "466050876426-jdn8lujblas6egla0h7vg8h2esbuc7eo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspop",
+            "certificate_hash": "b965dd15d41b7508077d966505d097515ce163f9"
+          }
+        },
+        {
+          "client_id": "466050876426-2tfplft0bljclo15jam44p1hjknksdnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspop",
+            "certificate_hash": "f592d4c37097889389e9cf58c25321a65f3a4e6e"
+          }
+        },
+        {
+          "client_id": "466050876426-0ijrr9ti2bo3vdc5784b8aup6o4j9ues.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspop",
+            "certificate_hash": "f88c6bd6f1afb957dccfd9f165ed91dafa3d5b29"
+          }
+        },
+        {
+          "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQEjtT-uFRqaDysnPlTQegcmi89W-2-nE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466050876426:android:9ef762f52d1cb359",
+        "android_client_info": {
+          "package_name": "com.snackspop.snackspopseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466050876426-0jc6to4pse73n17fjl3g28i9pg1t79md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopseller",
+            "certificate_hash": "cd76876bcdc25192590de71572507210fc4ad99f"
+          }
+        },
+        {
+          "client_id": "466050876426-h0ltvqsu2c3ppusugc1h1smun2ntjpjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopseller",
+            "certificate_hash": "041bba6e23e12ed809e5f4c857d5ae5781555e8c"
+          }
+        },
+        {
+          "client_id": "466050876426-vcd76ijlgectcsdnbr7uo73p32kuhb7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopseller",
+            "certificate_hash": "95d374789241f19c482189e2062aff4a09d72ce9"
+          }
+        },
+        {
+          "client_id": "466050876426-q58b781n84k76ps4u78lmbcqi1oo2un6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopseller",
+            "certificate_hash": "f88c6bd6f1afb957dccfd9f165ed91dafa3d5b29"
+          }
+        },
+        {
+          "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQEjtT-uFRqaDysnPlTQegcmi89W-2-nE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466050876426:android:1c20737f69837986",
+        "android_client_info": {
+          "package_name": "com.snackspop.snackspopnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466050876426-5dalc1lprm41nmv8i0gubmjs2l9dmoci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopnew",
+            "certificate_hash": "027f31d3cfd25f4c4b88ca62385a085b5a32f467"
+          }
+        },
+        {
+          "client_id": "466050876426-h4fq4poca9k7ujij2aua00aalm5asue7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopnew",
+            "certificate_hash": "f31291770f7a2f908f00be88fb0075041e0bc218"
+          }
+        },
+        {
+          "client_id": "466050876426-rtpgvslcu3qs5fqh9kfqfdk7q4v5puvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopnew",
+            "certificate_hash": "041bba6e23e12ed809e5f4c857d5ae5781555e8c"
+          }
+        },
+        {
+          "client_id": "466050876426-sj6pg2vptv4e7qn3ae4cu6i96lqc97sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopnew",
+            "certificate_hash": "b965dd15d41b7508077d966505d097515ce163f9"
+          }
+        },
+        {
+          "client_id": "466050876426-9ni7pdbmdh6h5499sghk3v4boe7lss01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopnew",
+            "certificate_hash": "f592d4c37097889389e9cf58c25321a65f3a4e6e"
+          }
+        },
+        {
+          "client_id": "466050876426-c1jsnf25pnlfqpcllcfotv3klheofktl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopnew",
+            "certificate_hash": "f88c6bd6f1afb957dccfd9f165ed91dafa3d5b29"
+          }
+        },
+        {
+          "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQEjtT-uFRqaDysnPlTQegcmi89W-2-nE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466050876426:android:1d21ba83bacd057b",
+        "android_client_info": {
+          "package_name": "com.snackspop.snackspopsellernew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466050876426-f6qfr4buh9ijjj6lk0s745vefdf29ncs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopsellernew",
+            "certificate_hash": "64a26ea7362a0eab7fdd25e937b35d2afa54ed41"
+          }
+        },
+        {
+          "client_id": "466050876426-cotvu0nkdr20q0e5hder5uf8ft7ni3tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopsellernew",
+            "certificate_hash": "cd76876bcdc25192590de71572507210fc4ad99f"
+          }
+        },
+        {
+          "client_id": "466050876426-9tphkorknr3ub5lq0hqg9cf48l5ehbhg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopsellernew",
+            "certificate_hash": "041bba6e23e12ed809e5f4c857d5ae5781555e8c"
+          }
+        },
+        {
+          "client_id": "466050876426-hfk0mvb5i1fjaki6igo0sn8ostr1e51r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopsellernew",
+            "certificate_hash": "95d374789241f19c482189e2062aff4a09d72ce9"
+          }
+        },
+        {
+          "client_id": "466050876426-i77sga0ndhamf0fluqoin5m7utroj43h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snackspop.snackspopsellernew",
+            "certificate_hash": "f88c6bd6f1afb957dccfd9f165ed91dafa3d5b29"
+          }
+        },
+        {
+          "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQEjtT-uFRqaDysnPlTQegcmi89W-2-nE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466050876426-7vpjhlpp9tbh3nh98go0qs0n7u2id2ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

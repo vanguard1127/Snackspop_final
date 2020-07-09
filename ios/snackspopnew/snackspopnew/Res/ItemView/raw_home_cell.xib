@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="HomeViewCellId" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="81" id="qtP-LN-PhV" customClass="HomeViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="511" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qtP-LN-PhV" id="wg0-VH-Y41">
+                <rect key="frame" x="0.0" y="0.0" width="511" height="80.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VgI-uj-tl7">
+                        <rect key="frame" x="0.0" y="0.0" width="511" height="80.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo_cir_red" translatesAutoresizingMaskIntoConstraints="NO" id="FHo-gB-hMl">
+                                <rect key="frame" x="15" y="15" width="60" height="50.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="bd8-hB-bxL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My product 1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rrn-ws-r23">
+                                <rect key="frame" x="85" y="30" width="283.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eTY-iC-3iZ">
+                                <rect key="frame" x="373.5" y="21" width="127.5" height="39"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwg-8r-mX4">
+                                        <rect key="frame" x="101.5" y="0.0" width="26" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.02km" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgt-ac-bhQ">
+                                        <rect key="frame" x="79" y="22" width="48.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rrn-ws-r23" firstAttribute="leading" secondItem="FHo-gB-hMl" secondAttribute="trailing" constant="10" id="HI6-Fb-LRQ"/>
+                            <constraint firstItem="eTY-iC-3iZ" firstAttribute="leading" secondItem="Rrn-ws-r23" secondAttribute="trailing" constant="5" id="KSq-TX-NaR"/>
+                            <constraint firstItem="FHo-gB-hMl" firstAttribute="leading" secondItem="VgI-uj-tl7" secondAttribute="leading" constant="15" id="OJh-4Z-5PP"/>
+                            <constraint firstItem="eTY-iC-3iZ" firstAttribute="centerY" secondItem="VgI-uj-tl7" secondAttribute="centerY" id="Q7E-ph-85o"/>
+                            <constraint firstItem="eTY-iC-3iZ" firstAttribute="width" secondItem="VgI-uj-tl7" secondAttribute="width" multiplier="0.25" id="QUB-fM-qlz"/>
+                            <constraint firstItem="FHo-gB-hMl" firstAttribute="top" secondItem="VgI-uj-tl7" secondAttribute="top" constant="15" id="a6B-dr-2Mb"/>
+                            <constraint firstItem="Rrn-ws-r23" firstAttribute="centerY" secondItem="VgI-uj-tl7" secondAttribute="centerY" id="lxn-cJ-mFb"/>
+                            <constraint firstAttribute="bottom" secondItem="FHo-gB-hMl" secondAttribute="bottom" constant="15" id="rrp-K7-KHF"/>
+                            <constraint firstAttribute="trailing" secondItem="eTY-iC-3iZ" secondAttribute="trailing" constant="10" id="wlF-bW-F54"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VgI-uj-tl7" firstAttribute="leading" secondItem="wg0-VH-Y41" secondAttribute="leading" id="8Bg-4O-tm2"/>
+                    <constraint firstAttribute="bottom" secondItem="VgI-uj-tl7" secondAttribute="bottom" id="CaA-KU-aPI"/>
+                    <constraint firstItem="VgI-uj-tl7" firstAttribute="top" secondItem="wg0-VH-Y41" secondAttribute="top" id="Cba-EV-vUy"/>
+                    <constraint firstAttribute="trailing" secondItem="VgI-uj-tl7" secondAttribute="trailing" id="eaZ-wM-oE3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distanceView" destination="tgt-ac-bhQ" id="rew-ow-hnY"/>
+                <outlet property="itemImageView" destination="FHo-gB-hMl" id="SVg-jy-Imh"/>
+                <outlet property="priceView" destination="pwg-8r-mX4" id="FJQ-sW-axW"/>
+                <outlet property="title" destination="Rrn-ws-r23" id="YSm-OG-UmV"/>
+            </connections>
+            <point key="canvasLocation" x="224.80000000000001" y="2.2488755622188905"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_logo_cir_red" width="270" height="270"/>
+    </resources>
+</document>

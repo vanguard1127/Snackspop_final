@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="HorizontalTableViewCellId" reuseIdentifier="HorizontalTableViewCellId" id="jbA-EZ-9Dk" customClass="HorizontalTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="110" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="110" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo_cir_red" translatesAutoresizingMaskIntoConstraints="NO" id="s4U-Rg-HTf">
+                        <rect key="frame" x="20" y="5" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="Sb2-YA-UKU"/>
+                            <constraint firstAttribute="width" secondItem="s4U-Rg-HTf" secondAttribute="height" multiplier="1:1" id="aeI-qh-Abz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My product 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQc-Zt-B1z">
+                        <rect key="frame" x="0.0" y="80" width="110" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="TQc-Zt-B1z" firstAttribute="centerX" secondItem="jbA-EZ-9Dk" secondAttribute="centerX" id="9Vc-pK-A3T"/>
+                <constraint firstItem="s4U-Rg-HTf" firstAttribute="top" secondItem="jbA-EZ-9Dk" secondAttribute="top" constant="5" id="cTz-S6-LJ7"/>
+                <constraint firstItem="TQc-Zt-B1z" firstAttribute="top" secondItem="s4U-Rg-HTf" secondAttribute="bottom" constant="5" id="ePM-jp-Tfc"/>
+                <constraint firstItem="s4U-Rg-HTf" firstAttribute="centerX" secondItem="jbA-EZ-9Dk" secondAttribute="centerX" id="f8H-IO-Zfr"/>
+                <constraint firstItem="TQc-Zt-B1z" firstAttribute="width" secondItem="jbA-EZ-9Dk" secondAttribute="width" id="lby-UZ-tws"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="eJx-0N-a9K"/>
+            <size key="customSize" width="110" height="127"/>
+            <connections>
+                <outlet property="itemImageView" destination="s4U-Rg-HTf" id="cdu-Sb-xmz"/>
+                <outlet property="itemTitle" destination="TQc-Zt-B1z" id="BHU-Ro-HNE"/>
+            </connections>
+            <point key="canvasLocation" x="-667.20000000000005" y="38.23088455772114"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_logo_cir_red" width="270" height="270"/>
+    </resources>
+</document>

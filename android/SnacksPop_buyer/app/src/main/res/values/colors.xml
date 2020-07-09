@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D46A56</color>
+    <color name="colorPrimaryDark">#D46A56</color>
+    <color name="colorAccent">#D46A56</color>
+
+    <color name="colorMyChatItem">#B5FCD8D8</color>
+
+    <color name="toolbar">#D46A56</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#303F9F</color>
+    <color name="black_hint">#99000000</color>
+
+    <color name="grey_bg">#AAA9AA</color>
+    <color name="white_hint">#99FFFFFF</color>
+
+    <color name="yellow_splash">#FFE800</color>
+
+    <color name="translucent_background">#CC000000</color>
+    <color name="transparent">#FFFFFFFF</color>
+    <color name="order_color">#666</color>
+    <color name="order_success">#40b84a</color>
+    <color name="order_completed">#40b84a</color>
+    <color name="order_cancelled">#d14836</color>
+    <color name="order_confirmed">#ffcd6b</color>
+    <color name="order_not_confirmed">#b6b5ae</color>
+</resources>

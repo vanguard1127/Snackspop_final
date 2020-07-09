@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelperView1"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HelperView1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search and buy snacks, food or drinks locally" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foL-cN-Fgu">
+                    <rect key="frame" x="10" y="170" width="300" height="53"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJd-RB-Sh6">
+                    <rect key="frame" x="10" y="273" width="300" height="160"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helper1_1" translatesAutoresizingMaskIntoConstraints="NO" id="v6l-X5-f2F">
+                            <rect key="frame" x="0.0" y="0.0" width="99" height="160"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helper1_2" translatesAutoresizingMaskIntoConstraints="NO" id="eTV-f9-idO">
+                            <rect key="frame" x="99" y="0.0" width="99" height="160"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helper1_3" translatesAutoresizingMaskIntoConstraints="NO" id="mRv-TT-8Vw">
+                            <rect key="frame" x="201" y="0.0" width="99" height="160"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="mRv-TT-8Vw" secondAttribute="bottom" id="8ET-DM-Xh0"/>
+                        <constraint firstAttribute="bottom" secondItem="eTV-f9-idO" secondAttribute="bottom" id="8bw-hV-ABe"/>
+                        <constraint firstItem="v6l-X5-f2F" firstAttribute="leading" secondItem="AJd-RB-Sh6" secondAttribute="leading" id="Hh5-Hv-c0x"/>
+                        <constraint firstAttribute="bottom" secondItem="v6l-X5-f2F" secondAttribute="bottom" id="NDH-bD-M46"/>
+                        <constraint firstAttribute="height" constant="160" id="NIB-x2-Nh4"/>
+                        <constraint firstItem="mRv-TT-8Vw" firstAttribute="top" secondItem="AJd-RB-Sh6" secondAttribute="top" id="Ng2-TU-r38"/>
+                        <constraint firstItem="v6l-X5-f2F" firstAttribute="top" secondItem="AJd-RB-Sh6" secondAttribute="top" id="WNO-vs-ci0"/>
+                        <constraint firstAttribute="trailing" secondItem="mRv-TT-8Vw" secondAttribute="trailing" id="Y6J-QO-irc"/>
+                        <constraint firstItem="eTV-f9-idO" firstAttribute="top" secondItem="AJd-RB-Sh6" secondAttribute="top" id="Yff-MW-9dp"/>
+                        <constraint firstItem="eTV-f9-idO" firstAttribute="leading" secondItem="v6l-X5-f2F" secondAttribute="trailing" id="k5V-7G-Gbc"/>
+                        <constraint firstItem="eTV-f9-idO" firstAttribute="width" secondItem="v6l-X5-f2F" secondAttribute="width" id="lNX-xk-pp9"/>
+                        <constraint firstItem="mRv-TT-8Vw" firstAttribute="width" secondItem="v6l-X5-f2F" secondAttribute="width" id="oaJ-pK-E31"/>
+                        <constraint firstItem="mRv-TT-8Vw" firstAttribute="width" secondItem="eTV-f9-idO" secondAttribute="width" id="reY-t2-vAu"/>
+                        <constraint firstItem="v6l-X5-f2F" firstAttribute="width" secondItem="AJd-RB-Sh6" secondAttribute="width" multiplier="0.33" id="xz2-fF-fZH"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="first.png" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-dW-6GH">
+                    <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="wwc-dW-6GH" secondAttribute="bottom" id="1MP-B9-NHa"/>
+                <constraint firstItem="foL-cN-Fgu" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="150" id="3n4-K6-M5I"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="AJd-RB-Sh6" secondAttribute="trailing" constant="10" id="Cq5-af-wja"/>
+                <constraint firstItem="wwc-dW-6GH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DsA-ru-mud"/>
+                <constraint firstItem="wwc-dW-6GH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="KUc-Q6-lcE"/>
+                <constraint firstItem="AJd-RB-Sh6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="NGw-YH-dba"/>
+                <constraint firstItem="foL-cN-Fgu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="OFg-ns-f7D"/>
+                <constraint firstAttribute="trailing" secondItem="foL-cN-Fgu" secondAttribute="trailing" constant="10" id="RLg-cQ-xuu"/>
+                <constraint firstItem="AJd-RB-Sh6" firstAttribute="top" secondItem="foL-cN-Fgu" secondAttribute="bottom" constant="50" id="X2F-yB-8ko"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wwc-dW-6GH" secondAttribute="trailing" id="hfC-CE-CUW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="48.75" y="54.929577464788736"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="first.png" width="460" height="617"/>
+        <image name="helper1_1" width="101" height="101"/>
+        <image name="helper1_2" width="101" height="101"/>
+        <image name="helper1_3" width="101" height="101"/>
+    </resources>
+</document>

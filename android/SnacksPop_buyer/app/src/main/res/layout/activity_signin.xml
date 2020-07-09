@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.snackspop.snackspopnew.SigninActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/scale_5">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/iv_back"
+                android:padding="@dimen/scale_5"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:text="@string/label_create_account"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_scale_22" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/scale_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_first_name"
+            android:inputType="textPersonName"
+            android:paddingEnd="@dimen/common_input_padding"
+            android:paddingStart="@dimen/common_input_padding"
+            android:textSize="@dimen/common_input_text_size" />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/scale_20"
+            android:hint="@string/prompt_last_name"
+            android:inputType="textPersonName"
+            android:paddingEnd="@dimen/common_input_padding"
+            android:paddingStart="@dimen/common_input_padding"
+            android:textSize="@dimen/common_input_text_size" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/scale_20"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:paddingEnd="@dimen/common_input_padding"
+            android:paddingStart="@dimen/common_input_padding"
+            android:textSize="@dimen/common_input_text_size" />
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/scale_20"
+            android:hint="@string/prompt_phone_number"
+            android:inputType="phone"
+            android:paddingEnd="@dimen/common_input_padding"
+            android:paddingStart="@dimen/common_input_padding"
+            android:textSize="@dimen/common_input_text_size" />
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/scale_20"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword"
+            android:paddingEnd="@dimen/common_input_padding"
+            android:paddingStart="@dimen/common_input_padding"
+            android:textSize="@dimen/common_input_text_size" />
+
+        <Button
+            android:id="@+id/bt_create_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/scale_5"
+            android:layout_marginEnd="@dimen/scale_5"
+            android:layout_marginTop="@dimen/scale_30"
+            android:background="@color/colorPrimary"
+            android:text="@string/label_create_account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_scale_20" />
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I accept The "
+                android:id="@+id/cb_tc"
+                android:visibility="gone"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*by signing up you agree to our"
+                />
+            <TextView
+                android:id="@+id/tv_tc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" terms of use"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-154dp"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
